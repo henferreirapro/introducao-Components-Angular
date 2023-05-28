@@ -2,7 +2,15 @@
   <menu-component></menu-component>
   <my-button [label]="buttonLabel"></my-button>
   <my-button [label]="buttonAdd"></my-button>
+  
+  <!-- recomendada -->
   <my-button label={{buttonRemove}}></my-button>
+  
+  <!-- Inputando o valor direto no parametro  -->
+  <!-- recomendada -->
+  <my-button label="Remover Item"></my-button> 
+
+  <my-button [label]="'Adicionar'"></my-button>
     
 </main>
 
@@ -10,5 +18,6 @@
   Podemos declarar usando as duas formas recomendadas:
     [label]="variavel"
     label{{variavel}}
-
+  
+  Isso é um conceito de data binding
 -->
