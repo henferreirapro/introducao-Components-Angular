@@ -1,9 +1,19 @@
 <section>
+  <!-- Two Way forma mais manual -->
   <label for="">Escreva algo</label>
   <input type="text" [value]="placeHolder"
   (input)="placeHolder = $any($event.target).value">
 
   <p>{{ placeHolder }}</p>
+
+</section>
+
+<!-- Forma simplificada usando ngModel -->
+<section>
+  <label for="">Escreva algo</label>
+  <input type="text" [(ngModel)]="placePass">
+
+  <p>{{ placePass }}</p>
 
 </section>
 

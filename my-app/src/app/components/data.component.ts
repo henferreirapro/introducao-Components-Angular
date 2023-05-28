@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
 
 export class EntryData {
   placeHolder: string = "";
-  
+  placePass: string = "";
+
 }
