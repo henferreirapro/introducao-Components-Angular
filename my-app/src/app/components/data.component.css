@@ -1,0 +1,33 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  margin: 1rem;
+  width: 300px;
+  border-radius: .5rem;
+}
+
+label {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+  display: flex;
+  width: 80%;
+  border: bisque solid;
+  font-size: 1.1rem;
+}
+
+p {
+  background-color: rgb(223, 201, 175);
+  width: 76%;
+  height: 50px;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0 0 .4rem .4rem;
+  font-size: .865rem;
+}

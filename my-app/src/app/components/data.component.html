@@ -1,0 +1,16 @@
+<section>
+  <label for="">Escreva algo</label>
+  <input type="text" [value]="placeHolder"
+  (input)="placeHolder = $any($event.target).value">
+
+  <p>{{ placeHolder }}</p>
+
+</section>
+
+<!-- 
+  Para pegar o que esta sendo escrito usamos o [value]="parametro".
+
+  Já para receber esse valor e escrever ele no paragrafo a baixo usamos (input)="parametro"
+
+  Dentro dele tem um $any que serve para escrever qualquer expressão JS dentro dele, com isso podemos usar a expressão ($event.target).value
+ -->

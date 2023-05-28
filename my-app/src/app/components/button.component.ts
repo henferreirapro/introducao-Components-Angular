@@ -15,8 +15,13 @@ export class Button {
   buttonNumber: number = 28;
   buttonTexts: string[] = ["VENDER", "PAGAR"];
 
+  getAlert() {
+    alert(`${this.label} executado!`)
+  }
 }
 
+
+// ANOTAÇÕES
 // INTERPOLAÇÃO
   // podemos add dados para usar dinamicamente em
   // nossos components dentro da class Button no component.ts.
