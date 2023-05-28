@@ -1,6 +1,14 @@
 <main>
   <menu-component></menu-component>
-  <my-button></my-button>
-  
-  
+  <my-button [label]="buttonLabel"></my-button>
+  <my-button [label]="buttonAdd"></my-button>
+  <my-button label={{buttonRemove}}></my-button>
+    
 </main>
+
+<!-- 
+  Podemos declarar usando as duas formas recomendadas:
+    [label]="variavel"
+    label{{variavel}}
+
+-->
